@@ -1,0 +1,15 @@
+{
+    "name": "alfredbez/ab_htmlmin",
+    "type": "oxid-module",
+    "description": "entfernt unnötige Whitespaces aus dem HTML-Code",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "authors": [
+        {
+            "name": "Alfred Bez",
+            "email": "alfred.bez@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
