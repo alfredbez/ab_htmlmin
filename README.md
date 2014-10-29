@@ -12,6 +12,22 @@ Installation
 2.    move folder 'ab_htmlmin' to your 'modules'-folder
 3.    Activate module in the OXID backend
 
+### Install via composer
+download composer https://getcomposer.org/download/
+
+1. use oxid with composer: ```git clone https://github.com/robinlehrmann/oxideshop_ce.git```
+2. add the module to your composer.json
+ * via command line ```composer.phar require alfredbez/ab_htmlmin dev-master```
+ * OR
+ * manually
+````
+{
+    "require": {
+        "alfredbez/ab_htmlmin": "dev-master"
+    }
+}
+```
+
 ----
 
 After uploading the module, your directory should look like this:
