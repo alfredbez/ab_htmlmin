@@ -13,10 +13,15 @@
  */
 class ab_htmlmin extends ab_htmlmin_parent {
 
-    protected function _fillCommonSmartyProperties( $oSmarty )
+    protected function _fillCommonSmartyProperties($oSmarty)
     {
         parent::_fillCommonSmartyProperties($oSmarty);
-        include_once dirname(__FILE__).'/smarty/plugins/outputfilter.trimwhitespace.php';
-        $oSmarty->load_filter ('output' , 'trimwhitespace');
+        $cfg = oxRegistry::getConfig();
+
+        $aPluginsDir = $oSmarty->plugins_dir;
+        $aPluginsDir[] = $cfg->getModulesDir()."/ab_htmlmin/smarty/plugins/";
+        $oSmarty->load_filter('output' , 'trimwhitespace');
+
+        $oSmarty->plugins_dir = $aPluginsDir;
     }
 }
