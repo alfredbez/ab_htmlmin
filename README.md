@@ -10,6 +10,7 @@ Installation
 3.    Activate module in the OXID backend
 
 OR
+download composer https://getcomposer.org/download/
 
 1. use oxid with composer: ```git clone https://github.com/robinlehrmann/oxideshop_ce.git```
 2. add the module in composer.json with ```composer.phar require alfredbez/ab_htmlmin dev-master```
