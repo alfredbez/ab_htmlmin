@@ -27,11 +27,15 @@ add the module to your composer.json
 ### Download-Option 3: Download ZIP
 [download](https://github.com/alfredbez/ab_htmlmin/archive/master.zip) and extract zip
 
+----
+
 If you downloaded the module manually or via git:
  * rename the folder to 'ab_htmlmin' if the folder name is 'ab_htmlmin-master'
  * you have to move the folder 'ab_htmlmin' to your 'modules'-folder. 
 
-Don't forget to activate module in the OXID backend
+----
+
+**Don't forget to activate module in the OXID backend**
 
 ----
 
