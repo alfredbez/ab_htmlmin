@@ -14,7 +14,7 @@
 
 namespace AlfredBez\HtmlMin\Core;
 
-class ab_htmlmin extends ab_htmlmin_parent {
+class UtilsView extends UtilsView_parent {
 
     protected function _fillCommonSmartyProperties($oSmarty)
     {

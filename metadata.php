@@ -23,6 +23,6 @@ $aModule = [
     'url'         => 'http://www.alfredbez.de',
     'email'       => 'alfred.bez@gmail.com',
     'extend'      => [
-        \OxidEsales\Eshop\Core\UtilsView::class => 'ab_htmlmin/models/ab_htmlmin',
+        \OxidEsales\Eshop\Core\UtilsView::class => \AlfredBez\HtmlMin\Core\UtilsView::class,
     ],
 ];

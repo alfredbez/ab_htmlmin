@@ -14,7 +14,7 @@
     ],
     "extra": {
         "oxideshop": {
-            "target-directory": "alfredbez/ab_htmlmin"
+            "target-directory": "ab/htmlmin"
         }
     },
     "autoload": {
