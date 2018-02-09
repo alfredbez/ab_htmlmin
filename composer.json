@@ -1,6 +1,6 @@
 {
     "name": "alfredbez/ab_htmlmin",
-    "type": "oxid-module",
+    "type": "oxideshop-module",
     "keywords": ["oxid", "modules", "eShop"],
     "description": "entfernt unnötige Whitespaces aus dem HTML-Code",
     "require": {
