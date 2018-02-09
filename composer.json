@@ -1,9 +1,10 @@
 {
     "name": "alfredbez/ab_htmlmin",
     "type": "oxid-module",
+    "keywords": ["oxid", "modules", "eShop"],
     "description": "entfernt unnötige Whitespaces aus dem HTML-Code",
     "require": {
-        "composer/installers": "~1.0"
+        "oxid-esales/oxideshop-ce": "^v6.0"
     },
     "authors": [
         {
@@ -11,5 +12,15 @@
             "email": "alfred.bez@gmail.com"
         }
     ],
+    "extra": {
+        "oxideshop": {
+            "target-directory": "alfredbez/ab_htmlmin"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "AlfredBez\\HtmlMin\\": "../../../source/modules/alfredbez/ab_htmlmin"
+        }
+    },
     "minimum-stability": "dev"
 }
