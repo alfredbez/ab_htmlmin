@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "AlfredBez\\HtmlMin\\": "../../../source/modules/alfredbez/ab_htmlmin"
+            "AlfredBez\\HtmlMin\\": "../../../source/modules/ab/htmlmin"
         }
     },
     "minimum-stability": "dev"
