@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+vendor
+composer.lock
+source
+.phpstorm-oxid.meta.php
+ab_htmlmin.iml

@@ -11,17 +11,14 @@
  * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
  * You should have received a copy of the GNU General Public License along with this program; if not, see <http://www.gnu.org/licenses/>
  */
-class ab_htmlmin extends ab_htmlmin_parent {
+
+namespace AlfredBez\HtmlMin\Core;
+
+class UtilsView extends UtilsView_parent {
 
     protected function _fillCommonSmartyProperties($oSmarty)
     {
         parent::_fillCommonSmartyProperties($oSmarty);
-        $cfg = oxRegistry::getConfig();
-
-        $aPluginsDir = $oSmarty->plugins_dir;
-        $aPluginsDir[] = $cfg->getModulesDir()."/ab_htmlmin/smarty/plugins/";
         $oSmarty->load_filter('output' , 'trimwhitespace');
-
-        $oSmarty->plugins_dir = $aPluginsDir;
     }
 }
